@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador Maitê</title>
+</head>
+<body>
+    <main class="main">
+
+        <header class="cabecalho">
+            <img src="./assets/lupa-alura.png" class="logo" alt="Lupa da Alura desenvolvida por mim!">
+            <h1>Mensagens secretas</h1>      
+        </header>
+       
+        <section>
+            <textarea id="input__mensagem" placeholder= "&#X270D Escreva sua mensagem aqui..."></textarea>
+            <div class="input__mensagem__grupo">
+                <img src="./assets/exclamacao.png" class="input__mensagem__grupo__img__alerta">
+                <label for="input__mensagem"> &#X2757 &#X26D4 &#x270B <strong class="destaque__texto">ATENÇÃO!</strong>
+                    Utilize somente <strong class="destaque__texto">letras minúsculas</strong> 
+                     e<strong class="destaque__texto"> não</strong> coloque nenhum acento ou qualquer outro caracter especial.</label>
+            </div>
+            <div class="bloco__botoes">
+                <button onclick="criptografar()" class="botao__criptografar">&#x1F47E Criptografar &#x1F47E</button>
+                <button onclick="descriptografar()" class="botao__descriptografar">&#x1F50E Descriptografar &#x1F50D</button>
+            </div>
+        </section>
+
+        <section>
+            <div id="output">
+                <img src="./assets/piguim-lupa.gif" alt="Pinguim segurando uma lupa.">
+                <textarea id="mensagem">&#X2728Nenhuma mensagem encontrada.&#X2728</textarea>
+                <p class="output__aviso">Digite uma mensagem que você deseja criptografar ou descriptografar.</p>
+            </div>
+        </section>
+        
+        <footer class="rodape">
+            <div class="icones">
+                <a href="https://github.com/MaiteFinzi">
+                    <img class="icones__github" src="./assets/github.png" alt="logo do GitHub"></a>
+                <a href="https://www.linkedin.com/in/mait%C3%AA-finzi-sousa-buiatti-ti/">
+                    <img class="icones__linkedin" src="./assets/linkedin.png" alt="logo do LinkedIn"></a>   
+            </div>
+                <p class="rodape__nome">Desenvolvido por Maitê Finzi de Sousa Buiatti</p>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
