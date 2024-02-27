@@ -4,7 +4,7 @@ Desafio realizado durante o curso ONE-Alura-T-6
 Com esse desafio aprendi a:
 - Criar uma pagina em HTML;
 - Estilizar com CSS;
-- Desenvolver um encriptador e desencriptador de texto.
+- Desenvolver um encriptador e desencriptador de texto co JavaScript.
 
 Desenvolvi a habilidade de me comunicar com meus colegas futuros DEVS,
 aprendendo muito com eles e repassando o conhecimento absorvido durante 
